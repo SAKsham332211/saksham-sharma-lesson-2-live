@@ -3,6 +3,7 @@
 :root {
     --primary-color: #7c3aed;
     --dark-gray: #6b7280;
+    --off-white: #f3f4f6;
 }
 
 body {
@@ -96,6 +97,8 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .navigation .link {
@@ -126,3 +129,21 @@ hr {
     color: var(--primary-color);
 }
 
+/** sections **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.ow {
+    background-color: var(--off-white);
+}
+
+
+ 
