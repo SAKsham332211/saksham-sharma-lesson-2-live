@@ -13,6 +13,7 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lumanosimo', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Tektur', cursive;
+margin: 0px;
 
 }
 
@@ -146,4 +147,20 @@ hr {
 }
 
 
+/** footer **/
+
+.footer {
+    background-color: var(--dark-gray);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer .link {
+
+    color: white;
+
+}
  
